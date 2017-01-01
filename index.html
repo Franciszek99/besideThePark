@@ -4,13 +4,16 @@
     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
     <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
+
     <link href="http://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css" rel="stylesheet" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <script src="script.js"></script>
     <link rel="shortcut icon" href="firm_245109_258502_big.jpg">
   </head><body>
-    <!-- big screen-->
+    <script id="address-template" type="text/x-handlebars-template">
+    //big screen-->
     <div class="hidden-md hidden-sm hidden-xs">
       <div class="navbar navbar-default navbar-static-top" style="position:absolute; width:100%; opacity:0.8; height:70px">
         <div class="container">
@@ -129,10 +132,10 @@
           </div>
           <div class="col-md-2"></div>
         </div>
-        <!---->
+        //<!---->
       </div>
     </div>
-    <!-- laptop-->
+    //<!-- laptop-->
     <div class="hidden-lg hidden-sm hidden-xs">
       <div class="navbar navbar-default navbar-static-top" style="position:absolute; width:100%; opacity:0.8; height:70px">
         <div class="container">
@@ -249,7 +252,7 @@
         </div>
       </div>
     </div>
-    <!-- tablet-->
+    //<!-- tablet-->
     <div class="hidden-lg hidden-md hidden-xs">
       <div class="navbar navbar-default navbar-static-top" style="position:absolute; width:100%; opacity:0.8; height:70px">
         <div class="container">
@@ -357,7 +360,7 @@
       </div>
       <div class="col-xs-2"></div>
     </div>
-    <!-- phone-->
+    //<!-- phone-->
     <div class="hidden-lg hidden-md hidden-sm">
       <div class="navbar navbar-default navbar-static-top" style="position:absolute; width:100%; opacity:0.8;">
         <div class="container" style="text-align:center; padding:0 0 0 10px;">
@@ -470,6 +473,6 @@
       </div>
       <div class="col-xs-1"></div>
     </div>
-  
-
+  </script>
+<div class="content-placeholder"></div>
 </body></html>
