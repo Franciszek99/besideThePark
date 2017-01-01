@@ -192,3 +192,42 @@
 	font-size:8px;
 }
 /* phone screen*/
+.phone-nav
+{
+	position:absolute; 
+	width:100%; 
+	opacity:0.8; 
+}
+.container-nav
+{
+	text-align:center; padding:0 0 0 10px;
+}
+
+.phone-overlay
+{
+	position:absolute;
+	width:100%;
+	padding-top:20%;
+	color:lightgrey;
+}
+.phone-built
+{
+	background-color:#43463E; 
+	padding:10px 10px 20px 20px;
+}
+.phone-clients
+{
+		background-color:#37461D; padding:10px 10px 20px 20px;
+}
+.phone-sign
+{
+	background-color:#091E28; padding:10px 10px 20px 20px;
+}
+.phone-pictures
+{
+	background-color:#73933C; margin-bottom:10%; padding:10px 10px 20px 20px;
+}
+.phone-text
+{
+	font-size:8px;
+}
