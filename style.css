@@ -1,4 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Lato');
+/*!@media screen and (max-width: 480px) {
+  .displaysmall {
+    display: inline;
+  }
+}
+
+*/
 /*!
  * Default theme for Pingendo 
  * Homepage: http://pingendo.com  

@@ -94,6 +94,7 @@
 .laptop-hamburger
 {
 	margin-top:20px;
+	display: inline;
 }
 .laptop-overlay
 {
@@ -152,16 +153,20 @@
 .tablet-header
 {
 	text-align:center; 
-	margin-top:20px
+	margin-top:20px;
 }
 
 .tablet-search
 {
 	margin-top:20px;
+		display: inline;
+
 }
 .tablet-hamburger
 {
 	margin-top:20px;
+		display: inline;
+
 }
 .tablet-overlay
 {
