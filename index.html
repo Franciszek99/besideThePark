@@ -8,10 +8,14 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
+
     <link rel="shortcut icon" href="firm_245109_258502_big.jpg">
   </head><body>
     <!-- big screen-->
     <div class="hidden-md hidden-sm hidden-xs">
+    <script id="big-address-template" type="text/x-handlebars-template">
+
       <div class="navbar navbar-default navbar-static-top" style="position:absolute; width:100%; opacity:0.8; height:70px">
         <div class="container">
           <div class="navbar-header" data-toggle="collapse" data-target="#navbar-ex-collapse" style="text-align:center;"></div>
@@ -20,7 +24,7 @@
               <div class="col-sm-2"></div>
               <div class="col-sm-8 navbar-header">
                 <h2 class="text-success" style="text-align:center; margin-top:20px">
-                  <b>Beside the park</b>
+                  <b>{{title}}</b>
                 </h2>
               </div>
               <div class="col-sm-1">
@@ -33,6 +37,10 @@
           </div>
         </div>
       </div>
+</script>
+
+            <div class="big-content-placeholder"></div>
+
       <div style="position:absolute; width:100%; padding-top:22%;color:lightgrey;">
         <div class="row">
           <div class="col-md-2"></div>
@@ -131,6 +139,8 @@
         </div>
         <!---->
       </div>
+
+
     </div>
     <!-- laptop-->
     <div class="hidden-lg hidden-sm hidden-xs">
