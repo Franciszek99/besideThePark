@@ -1,3 +1,4 @@
+/* big screen*/
 .big-nav
 {
 	position: absolute;
@@ -22,3 +23,51 @@
 	margin-top:20px;
 }
 
+.big-overlay
+{
+	position:absolute;
+	width:100%;
+	padding-top:22%;
+	color:lightgrey;
+}
+.big-built
+{
+	margin-top:20px;
+	background-color:#43463E; 
+	height:180px; 
+	margin-left:12px; 
+	margin-right:-12px;
+	color:lightgrey;
+	padding-left:20px;
+}
+.big-clients
+{
+	height:180px;
+	margin-top:20px; 
+	background-color:#37461D; 
+	padding-left:20px;
+	color:lightgrey;
+}
+.big-sign
+{
+	background-color:#091E28; 
+	padding-left:20px;
+	height:180px;
+	margin-left:12px; 
+	margin-right:-12px;
+	color:lightgrey;
+}
+.big-pictures
+{
+	background-color:#73933C; 
+	height:180px;
+	padding-left:20px;
+	color:lightgrey;
+}
+.big-text
+{
+	font-size:12px;
+}
+/* laptop screen*/
+/* tablet screen*/
+/* phone screen*/
