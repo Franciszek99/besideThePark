@@ -1,4 +1,24 @@
-.abc
+.big-nav
 {
-	position: absolute;width: 100%; opacity: 0.8; height: 70px;
+	position: absolute;
+	width: 100%;
+	opacity: 0.8;
+	height: 70px;
 }
+
+.big-header
+{
+	text-align:center;
+	margin-top:20px;
+}
+
+.big-search
+{
+	margin-top:20px;
+}
+
+.big-hamburger
+{
+	margin-top:20px;
+}
+
