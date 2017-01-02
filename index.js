@@ -15,7 +15,7 @@ onInit(()=> {
 	  var theCompiledHtml = theTemplate(context);
 
 	  $('.big-content-placeholder').html(theCompiledHtml);
-	};
+	});
 	$(function (){
 
           $(".fadeOut").addClass("animated infinite flash");
