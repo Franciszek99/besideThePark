@@ -1,3 +1,6 @@
+import $ from 'jquery';
+import jQuery from 'jquery';
+
  $(document).ready(function(){
 
  	$(function () {
