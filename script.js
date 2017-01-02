@@ -1,22 +1,23 @@
-import $ from 'jquery';
-import jQuery from 'jquery';
-
-onInit(()=>
- 
+ $(document).ready(function(){
 
  	$(function () {
-	  var theTemplateScript = $("#big-address-template").html();
+  // Grab the template script
+  var theTemplateScript = $("#big-address-template").html();
 
-	  var theTemplate = Handlebars.compile(theTemplateScript);
+  // Compile the template
+  var theTemplate = Handlebars.compile(theTemplateScript);
 
-	  var context={
-	    "title": "Beside the park",
-	  };
+  // Define our data object
+  var context={
+    "title": "Beside the park",
+  };
 
-	  var theCompiledHtml = theTemplate(context);
+  // Pass our data to the template
+  var theCompiledHtml = theTemplate(context);
 
-	  $('.big-content-placeholder').html(theCompiledHtml);
-	});
+  // Add the compiled html to the page
+  $('.big-content-placeholder').html(theCompiledHtml);
+});
 
           $(".fadeOut").addClass("animated infinite flash");
       });
