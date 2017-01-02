@@ -8,13 +8,13 @@ var Component = React.createClass({
         setTimeout(function() { this.setState({color:transparen}); }.bind(this), 3000);
     },
 
-    //render: function () {
-    //     return (
-    //        <div className="component">
-    //            {this.state.position}
-    //        </div>
-    //     ); 
-    //}
+    render: function () {
+         return (
+            <div className="component">
+               {this.state.color}
+            </div>
+        ); 
+    }
 
 });
 
