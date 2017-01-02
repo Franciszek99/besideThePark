@@ -5,7 +5,7 @@ var Component = React.createClass({
     },
 
     componentDidMount: function () {
-        setTimeout(function() { this.setState({color:transparen}); }.bind(this), 3000);
+        setTimeout(function() { this.setState({color:transparent}); }.bind(this), 3000);
     },
 
     render: function () {
