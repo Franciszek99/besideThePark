@@ -14,5 +14,5 @@
   $('.big-content-placeholder').html(theCompiledHtml);
 });
 
-         // $(".fadeOut").addClass("animated infinite flash");
+        $(".fadeOut").addClass("animated infinite flash");
       });
