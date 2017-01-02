@@ -1,5 +1,9 @@
 
 
+ngOnInit() {
+    this.checkOverflow();
+}
+
 onInit(()=> {
  
 
